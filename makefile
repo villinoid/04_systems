@@ -6,3 +6,5 @@ main.o: main.c euler.h
 	
 euler.o: euler.c euler.h
 	gcc -c euler.c
+run:
+	./euler
